@@ -1,8 +1,8 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
-
+import { RentalComponent } from './components/rentals/rental/rental.component';
 const routes: Routes = [
-  
+  {path:'', redirectTo:'/rentals',pathMatch:'full'}
 ];
 
 @NgModule({
